@@ -1,0 +1,304 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Taj Mahal Palace",
+      "facilities": ["Free WiFi", "Spa", "Pool"],
+      "famous_for": "Luxury and iconic architecture",
+      "destination": "Mumbai",
+      "stars": 5,
+      "rating": 4.9,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/103703163.jpg?k=760f615013b8331e247fcd22e5a6c98be3a2dc24f664c74021c28dc820acbaaf&o=&hp=1"
+    },
+    {
+      "id": 2,
+      "name": "The Oberoi Udaivilas",
+      "facilities": ["Spa", "Pool", "Free WiFi"],
+      "famous_for": "Palatial architecture and royal experience",
+      "destination": "Udaipur",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://assets.architecturaldigest.in/photos/60083e1151daf9662c1492c6/16:9/w_2560%2Cc_limit/The-Oberoi-Mumbai-feature-image-1366x768.jpg"
+    },
+    {
+      "id": 3,
+      "name": "ITC Grand Chola",
+      "facilities": ["Free WiFi", "Spa", "Gym"],
+      "famous_for": "Grand design and luxury",
+      "destination": "Chennai",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNpy3ikTKwpflMPigFzr40AOUokikW1NA6Jw&s"
+    },
+    {
+      "id": 4,
+      "name": "Leela Palace",
+      "facilities": ["Pool", "Spa", "Free WiFi"],
+      "famous_for": "Luxurious ambiance and top-notch services",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/07/13/Pictures/_d7809bd0-86bb-11e8-bbc3-e5c02a79570e.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Imperial",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Historical significance and elegance",
+      "destination": "Delhi",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/56/ef/3f/kaldan-samudhra.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "id": 6,
+      "name": "The Park",
+      "facilities": ["Free WiFi", "Pool", "Restaurant"],
+      "famous_for": "Modern design and central location",
+      "destination": "Kolkata",
+      "stars": 4,
+      "rating": 4.3,
+      "image": "https://cdn.zeebiz.com/sites/default/files/2024/01/30/278292-indian-hotels-results-expectations.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Westin",
+      "facilities": ["Free WiFi", "Spa", "Gym"],
+      "famous_for": "Luxury and comfort",
+      "destination": "Pune",
+      "stars": 4,
+      "rating": 4.4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_aCSVleTPFApZ19pyJxoa4QIluPA5ApQrQ&s"
+    },
+    {
+      "id": 8,
+      "name": "Radisson Blu",
+      "facilities": ["Free WiFi", "Restaurant", "Gym"],
+      "famous_for": "Business and leisure facilities",
+      "destination": "Hyderabad",
+      "stars": 4,
+      "rating": 4.2,
+      "image": "https://media.radissonhotels.net/image/radisson-blu-hotel-jaipur/exterior/16256-116522-f64874139_3xl.jpg"
+    },
+    {
+      "id": 9,
+      "name": "JW Marriott",
+      "facilities": ["Spa", "Pool", "Free WiFi"],
+      "famous_for": "Luxurious accommodations",
+      "destination": "Jaipur",
+      "stars": 5,
+      "rating": 4.6,
+      "image": "https://businessindia.co/media/general/Taj_Hotels-Promoting-cultural_heritage.large.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Taj Falaknuma Palace",
+      "facilities": ["Free WiFi", "Spa", "Pool"],
+      "famous_for": "Royal heritage and opulence",
+      "destination": "Hyderabad",
+      "stars": 5,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRmB6t7C6mn6XACbYFFQ3sJXuZbIFIwDOUA&s"
+    },
+    {
+      "id": 11,
+      "name": "The Leela Mumbai",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Top-class amenities and services",
+      "destination": "Mumbai",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://pix10.agoda.net/hotelImages/2307370/0/51ad26c7a338c4824403d19037ea0652.jpg?ca=9&ce=1&s=414x232"
+    },
+    {
+      "id": 12,
+      "name": "ITC Maurya",
+      "facilities": ["Free WiFi", "Gym", "Spa"],
+      "famous_for": "Business and luxury",
+      "destination": "Delhi",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/78/dd/d8/itc-maurya-new-delhi.jpg?w=700&h=-1&s=1"
+    },
+    {
+      "id": 13,
+      "name": "The Oberoi Amarvilas",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Taj Mahal view",
+      "destination": "Agra",
+      "stars": 5,
+      "rating": 4.9,
+      "image": "https://assets.architecturaldigest.in/photos/60083e1151daf9662c1492c6/16:9/w_2560%2Cc_limit/The-Oberoi-Mumbai-feature-image-1366x768.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Grand Hyatt",
+      "facilities": ["Free WiFi", "Pool", "Spa"],
+      "famous_for": "Modern luxury",
+      "destination": "Goa",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO11SKrr8WC5AhiBR0FBWiHQwVCof_ZPAwyw&s"
+    },
+    {
+      "id": 15,
+      "name": "Hotel Park Hyatt",
+      "facilities": ["Free WiFi", "Restaurant", "Gym"],
+      "famous_for": "Contemporary luxury",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://pix10.agoda.net/hotelImages/336012/0/06a5daac691b83ac5d5abcbab93b5512.jpg?ca=7&ce=1&s=414x232&ar=16x9"
+    },
+    {
+      "id": 16,
+      "name": "the paradise",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Historical significance",
+      "destination": "Delhi",
+      "stars": 5,
+      "rating": 4.6,
+      "image": "https://pix10.agoda.net/hotelImages/90657/-1/998955316e156a462e809dff5e1b48fe.jpg?ca=7&ce=1&s=414x232&ar=16x9"
+    },
+    {
+      "id": 17,
+      "name": "The Oberoi New Delhi",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Luxury and location",
+      "destination": "Delhi",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/ae/01/18/the-lobby-at-the-oberoi.jpg?w=700&h=-1&s=1"
+    },
+    {
+      "id": 18,
+      "name": "Radisson Blu",
+      "facilities": ["Free WiFi", "Restaurant", "Gym"],
+      "famous_for": "Business and luxury",
+      "destination": "Noida",
+      "stars": 4,
+      "rating": 4.4,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331987517.jpg?k=89df31a20ff2605b6845e2a6f67e2eff259f7b076eb99f248ce2e7734553b7de&o=&hp=1"
+    },
+    {
+      "id": 19,
+      "name": "Holiday Inn",
+      "facilities": ["Free WiFi", "Restaurant", "Pool"],
+      "famous_for": "Comfort and convenience",
+      "destination": "Gurugram",
+      "stars": 4,
+      "rating": 4.3,
+      "image": "https://www.kayak.co.in/rimg/himg/0a/8b/01/leonardo-54877-146358505-909611.jpg?width=968&height=607&crop=true"
+    },
+    {
+      "id": 20,
+      "name": "The Leela Palace Bengaluru",
+      "facilities": ["Free WiFi", "Spa", "Pool"],
+      "famous_for": "Luxurious ambiance",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v1398669048/Domestic%20Hotels/Hotels_Bangalore/The%20Leela%20Palace%20Bangalore/Overview.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Hilton Garden Inn",
+      "facilities": ["Free WiFi", "Gym", "Restaurant"],
+      "famous_for": "Business and leisure",
+      "destination": "Bengaluru",
+      "stars": 4,
+      "rating": 4.2,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498578544.jpg?k=4c4a20261ad65e6eda5393ba022032ef45734b4e7d8e894e6346a93e9c6617bf&o=&hp=1"
+    },
+    {
+      "id": 22,
+      "name": "Sheraton Grand",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Elegant design",
+      "destination": "Hyderabad",
+      "stars": 5,
+      "rating": 4.6,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c0/f8/15/sheraton-grand-pune-bund.jpg?w=700&h=-1&s=1"
+    },
+    {
+      "id": 23,
+      "name": "Hotel Marriott",
+      "facilities": ["Free WiFi", "Restaurant", "Gym"],
+      "famous_for": "Modern amenities",
+      "destination": "Chennai",
+      "stars": 4,
+      "rating": 4.3,
+      "image": "https://www.kayak.co.in/rimg/himg/07/cb/78/leonardo-1072693-mc-mcowc--mh_mcowc_pool_O-553385.jpg?width=968&height=607&crop=true"
+    },
+    {
+      "id": 24,
+      "name": "Le Méridien",
+      "facilities": ["Free WiFi", "Pool", "Spa"],
+      "famous_for": "Luxury and comfort",
+      "destination": "Delhi",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/464569134.jpg?k=fe88cb5db0e6b62cdd00c657d335d46c3b9cf8f82ad328d939be996079ffe6a4&o=&hp=1"
+    },
+    {
+      "id": 25,
+      "name": "The Lalit",
+      "facilities": ["Free WiFi", "Gym", "Restaurant"],
+      "famous_for": "Business facilities",
+      "destination": "Mumbai",
+      "stars": 4,
+      "rating": 4.4,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b3/96/b5/the-lalit-mumbai.jpg?w=700&h=-1&s=1"
+    },
+    {
+      "id": 26,
+      "name": "Vivanta by Taj",
+      "facilities": ["Free WiFi", "Spa", "Restaurant"],
+      "famous_for": "Modern luxury",
+      "destination": "Pune",
+      "stars": 5,
+      "rating": 4.8,
+      "image": "https://www.vivantahotels.com/content/dam/gateway/hotels/chennai/welcome/Vivanta_Image1.png/_jcr_content/renditions/cq5dam.web.1280.1280.png"
+    },
+    {
+      "id": 27,
+      "name": "ITC Windsor",
+      "facilities": ["Free WiFi", "Restaurant", "Spa"],
+      "famous_for": "Historical charm",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNBrUhpRchbFdSDEDQaU0_IsImNn597ydsg&s"
+    },
+    {
+      "id": 28,
+      "name": "The Taj West End",
+      "facilities": ["Free WiFi", "Pool", "Restaurant"],
+      "famous_for": "Elegant ambiance",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi2-3Y8_uqhTLi4SvMUPqY4VDVRGrnj01kuA&s"
+    },
+    {
+      "id": 29,
+      "name": "ITC Windsor",
+      "facilities": ["Free WiFi", "Restaurant", "Spa"],
+      "famous_for": "Historical charm",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://image.wedmegood.com/resized/800X/uploads/member/83480/1469706816_itc2.jpg"
+    },
+    {
+      "id": 30,
+      "name": "the brij",
+      "facilities": ["Free WiFi", "Pool", "Restaurant"],
+      "famous_for": "Elegant ambiance",
+      "destination": "Bengaluru",
+      "stars": 5,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyQEGWe4y_--Lw94GoaKeNRtzM63F9EQ1Zw&s"
+    }
+  ]
+}

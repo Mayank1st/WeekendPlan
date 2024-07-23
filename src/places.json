@@ -1,0 +1,810 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Taj Mahal",
+      "img": "https://skift.com/wp-content/uploads/2022/06/GettyImages-1208049833-scaled-e1654782364566-1024x682.jpg",
+      "famous_for": "Historical Monument",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Taj View",
+        "Hotel Amar",
+        "Hotel Clarks Shiraz"
+      ],
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 2,
+      "name": "Goa Beaches",
+      "img": "https://www.agoda.com/wp-content/uploads/2023/02/Goa-overview-things-to-do-in-goa.jpg",
+      "famous_for": "Beaches and Nightlife",
+      "destination_fees": 0,
+      "available_hotels": ["Taj Exotica", "Leela Goa", "Marriott Goa"],
+      "state": "Goa"
+    },
+    {
+      "id": 3,
+      "name": "Jaipur City Palace",
+      "img": "https://www.planetware.com/photos-large/IND/india-top-attractions-jaisalmer.jpg",
+      "famous_for": "Palaces and Forts",
+      "destination_fees": 100,
+      "available_hotels": [
+        "The Oberoi Rajvilas",
+        "Taj Rambagh Palace",
+        "Trident Jaipur"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 4,
+      "name": "Kerala Backwaters",
+      "img": "https://static.toiimg.com/photo/54422629.cms",
+      "famous_for": "Backwaters and Houseboats",
+      "destination_fees": 200,
+      "available_hotels": [
+        "Kumarakom Lake Resort",
+        "Zuri Kumarakom",
+        "Lake Palace Resort"
+      ],
+      "state": "Kerala"
+    },
+    {
+      "id": 5,
+      "name": "Manali",
+      "img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Munnar-Kerala-1.jpg",
+      "famous_for": "Hill Station and Adventure Sports",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Manali Heights",
+        "The Himalayan",
+        "Apple Country Resort"
+      ],
+      "state": "Himachal Pradesh"
+    },
+    {
+      "id": 6,
+      "name": "Golden Temple",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkc1OlbvCkfK-Lj-J6rqpN5ZZ_x23V1nAMQ&s",
+      "famous_for": "Religious Site",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Hotel Golden Tulip",
+        "Hotel Holy City",
+        "Hotel Heaven"
+      ],
+      "state": "Punjab"
+    },
+    {
+      "id": 7,
+      "name": "Mysore Palace",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mysore_Palace_Morning.jpg",
+      "famous_for": "Royal Palace",
+      "destination_fees": 70,
+      "available_hotels": [
+        "Royal Orchid",
+        "The Windflower Resort",
+        "Radisson Blu"
+      ],
+      "state": "Karnataka"
+    },
+    {
+      "id": 8,
+      "name": "Hawa Mahal",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyXZQwkQAFPHc1aJNxSvU3DhQmBU9OlM95A&s",
+      "famous_for": "Palace of Winds",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Hawa Mahal",
+        "Hotel Moon Light Palace",
+        "Hotel Pearl Palace"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 9,
+      "name": "Sundarbans",
+      "img": "https://www.holidify.com/images/bgImages/MUNNAR.jpg",
+      "famous_for": "Mangrove Forest",
+      "destination_fees": 300,
+      "available_hotels": [
+        "Sundarban Tiger Camp",
+        "Sajnekhali Tourist Lodge",
+        "Banani Resort"
+      ],
+      "state": "West Bengal"
+    },
+    {
+      "id": 10,
+      "name": "Dal Lake",
+      "img": "https://c.myholidays.com/blog/blog/content/images/2021/04/Madurai.webp",
+      "famous_for": "Lake and Houseboats",
+      "destination_fees": 100,
+      "available_hotels": [
+        "Hotel Heevan",
+        "Vivanta Dal View",
+        "Houseboat New Golden Flower"
+      ],
+      "state": "Jammu and Kashmir"
+    },
+    {
+      "id": 11,
+      "name": "Ajanta Caves",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLYGc91-OTzVe80VJ2hGkBL0Pk18TgYMyOpA&s",
+      "famous_for": "Ancient Caves",
+      "destination_fees": 30,
+      "available_hotels": [
+        "Hotel Kailas",
+        "MTDC Ajanta T Junction",
+        "Ajanta Caves Hotel"
+      ],
+      "state": "Maharashtra"
+    },
+    {
+      "id": 12,
+      "name": "Ranthambore National Park",
+      "img": "https://adm.dookinternational.com/dook/images/country/bf24XeIx1620388623.jpg",
+      "famous_for": "Wildlife Safari",
+      "destination_fees": 500,
+      "available_hotels": [
+        "The Oberoi Vanyavilas",
+        "Taj Sawai Madhopur Lodge",
+        "Nahargarh Ranthambhore"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 13,
+      "name": "Varanasi Ghats",
+      "img": "https://www.sotc.in/blog/wp-content/uploads/2023/07/Best-Places-To-Visit-In-May-In-India.jpg",
+      "famous_for": "Holy River Ghats",
+      "destination_fees": 0,
+      "available_hotels": ["BrijRama Palace", "Hotel Alka", "Hotel Surya"],
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 14,
+      "name": "Qutub Minar",
+      "img": "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/home/SOU_new.jpg/_jcr_content/renditions/cq5dam.web.1800.737.jpeg",
+      "famous_for": "Historical Monument",
+      "destination_fees": 40,
+      "available_hotels": ["Hotel Le Meridien", "The Lodhi", "Taj Palace"],
+      "state": "Delhi"
+    },
+    {
+      "id": 15,
+      "name": "Sanchi Stupa",
+      "img": "https://housing.com/news/wp-content/uploads/2022/11/Famous-tourist-places-in-India-15.jpg",
+      "famous_for": "Buddhist Monument",
+      "destination_fees": 20,
+      "available_hotels": [
+        "Gateway Retreat",
+        "Hotel Sambodhi",
+        "MPTDC Tourist Lodge"
+      ],
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 16,
+      "name": "Charminar",
+      "img": "https://c.myholidays.com/blog/2023/8/41537_Auli.webp",
+      "famous_for": "Historical Monument",
+      "destination_fees": 25,
+      "available_hotels": ["Taj Krishna", "The Park Hyderabad", "Hotel Shadab"],
+      "state": "Telangana"
+    },
+    {
+      "id": 17,
+      "name": "Khajuraho Temples",
+      "img": "https://ihplb.b-cdn.net/wp-content/uploads/2021/07/Places-to-Visit-in-India-in-August-750x430.jpg",
+      "famous_for": "Temples and Sculptures",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Chandela",
+        "Radisson Jass Hotel",
+        "Hotel Harmony"
+      ],
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 18,
+      "name": "Darjeeling",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIND8e786LFCQCbjqDE45EX6TgOH_ldPocw&s",
+      "famous_for": "Tea Gardens and Scenic Views",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Mayfair Darjeeling",
+        "Cedar Inn",
+        "Windamere Hotel"
+      ],
+      "state": "West Bengal"
+    },
+    {
+      "id": 19,
+      "name": "Hampi",
+      "img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Chennai-1.jpg",
+      "famous_for": "Historical Ruins",
+      "destination_fees": 30,
+      "available_hotels": [
+        "Evolve Back Hampi",
+        "Heritage Resort",
+        "Hampi's Boulders"
+      ],
+      "state": "Karnataka"
+    },
+    {
+      "id": 20,
+      "name": "Meenakshi Temple",
+      "img": "https://ihplb.b-cdn.net/wp-content/uploads/2017/05/coorg-karnataka.jpg",
+      "famous_for": "Ancient Temple",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Heritage Madurai",
+        "Fortune Pandiyan Hotel",
+        "Hotel Supreme"
+      ],
+      "state": "Tamil Nadu"
+    },
+    {
+      "id": 21,
+      "name": "Andaman and Nicobar Islands",
+      "img": "https://www.holidify.com/images/bgImages/UDAIPUR.jpg",
+      "famous_for": "Beaches and Coral Reefs",
+      "destination_fees": 100,
+      "available_hotels": [
+        "Taj Exotica Resort",
+        "Barefoot at Havelock",
+        "Symphony Palms"
+      ],
+      "state": "Andaman and Nicobar Islands"
+    },
+    {
+      "id": 22,
+      "name": "Rishikesh",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9RGyw7TJtQGNAdhoeF5uTVwV-rfpud6oLqw&s",
+      "famous_for": "Yoga and Adventure Sports",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Ananda in the Himalayas",
+        "Aloha on the Ganges",
+        "Hotel Ganga Kinare"
+      ],
+      "state": "Uttarakhand"
+    },
+    {
+      "id": 23,
+      "name": "Jim Corbett National Park",
+      "img": "https://static2.tripoto.com/media/filter/tst/img/1356094/TripDocument/1559127574_1559127559952.jpg",
+      "famous_for": "Wildlife Safari",
+      "destination_fees": 500,
+      "available_hotels": [
+        "The Riverview Retreat",
+        "Aahana Resort",
+        "Jim's Jungle Retreat"
+      ],
+      "state": "Uttarakhand"
+    },
+    {
+      "id": 24,
+      "name": "Ellora Caves",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVyWtMMeJd7Vq-SWdokH_GuNxg5o600SlzRg&s",
+      "famous_for": "Ancient Caves",
+      "destination_fees": 40,
+      "available_hotels": [
+        "Ellora Heritage Resort",
+        "MTDC Holiday Resort",
+        "Hotel Kailas"
+      ],
+      "state": "Maharashtra"
+    },
+    {
+      "id": 25,
+      "name": "Mahabalipuram",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHgaRTfl_DNQygudGKR0rKFv7J7l90g9z1qA&s",
+      "famous_for": "Shore Temples",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Radisson Blu Resort",
+        "WelcomHotel Kences",
+        "Mamalla Heritage"
+      ],
+      "state": "Tamil Nadu"
+    },
+    {
+      "id": 26,
+      "name": "Srinagar",
+      "img": "https://media.easemytrip.com/media/Blog/India/637763055824686983/637763055824686983YZ3CT8.jpg",
+      "famous_for": "Lakes and Gardens",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Vivanta Dal View",
+        "The Lalit Grand Palace",
+        "Houseboat New Golden Flower"
+      ],
+      "state": "Jammu and Kashmir"
+    },
+    {
+      "id": 27,
+      "name": "Ladakh",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRluRrLrcBuQzCHTJ9tQBow8M7R-FxZqbyH5g&s",
+      "famous_for": "Scenic Landscapes and Monasteries",
+      "destination_fees": 0,
+      "available_hotels": [
+        "The Grand Dragon",
+        "Ladakh Sarai",
+        "Hotel Snow View"
+      ],
+      "state": "Ladakh"
+    },
+    {
+      "id": 28,
+      "name": "Goa",
+      "img": "https://images.cnbctv18.com/wp-content/uploads/2022/05/Goa-shutterstock-1000x573.jpg",
+      "famous_for": "Beaches and Nightlife",
+      "destination_fees": 0,
+      "available_hotels": ["Taj Exotica", "The Leela Goa", "W Goa"],
+      "state": "Goa"
+    },
+    {
+      "id": 29,
+      "name": "Tirupati",
+      "img": "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1536647411/Tirupati_Blog9876_1536646687.jpg",
+      "famous_for": "Tirumala Temple",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Bliss",
+        "TIRUMALA RESIDENCY",
+        "Hotel Hill View"
+      ],
+      "state": "Andhra Pradesh"
+    },
+    {
+      "id": 21,
+      "name": "Andaman and Nicobar Islands",
+      "img": "https://www.holidify.com/images/bgImages/UDAIPUR.jpg",
+      "famous_for": "Beaches and Coral Reefs",
+      "destination_fees": 100,
+      "available_hotels": [
+        "Taj Exotica Resort",
+        "Barefoot at Havelock",
+        "Symphony Palms"
+      ],
+      "state": "Andaman and Nicobar Islands"
+    },
+    {
+      "id": 31,
+      "name": "Shillong",
+      "img": "https://www.holidify.com/images/bgImages/MCLEODGANJ.jpg",
+      "famous_for": "Hill Station and Waterfalls",
+      "destination_fees": 0,
+      "available_hotels": ["Ri Kynjai", "Polo Towers", "Tripura Castle"],
+      "state": "Meghalaya"
+    },
+    {
+      "id": 32,
+      "name": "Kaziranga National Park",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCNOB0GzhdWgsWqPL6Sw7oA9qRsKkXeyNMg&s",
+      "famous_for": "Wildlife Safari",
+      "destination_fees": 600,
+      "available_hotels": [
+        "Iora The Retreat",
+        "Infinity Resort",
+        "Diphlu River Lodge"
+      ],
+      "state": "Assam"
+    },
+    {
+      "id": 33,
+      "name": "Konark Sun Temple",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXG4sm4MXcpilEdvgnweLb0FIpDcDxzVong&s",
+      "famous_for": "Sun Temple",
+      "destination_fees": 30,
+      "available_hotels": ["Lotus Resort", "Toshali Sands", "Eco Camp Konark"],
+      "state": "Odisha"
+    },
+    {
+      "id": 34,
+      "name": "Mahabaleshwar",
+      "img": "https://www.tripsavvy.com/thmb/tpCOm4IjKnDH8Pr-cOhKyl0g9TI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tea-plantations-536270487-5c4102c146e0fb00017e287c.jpg",
+      "famous_for": "Hill Station",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Brightland Resort",
+        "Evershine Keys Resort",
+        "Le Meridien"
+      ],
+      "state": "Maharashtra"
+    },
+    {
+      "id": 35,
+      "name": "Coorg",
+      "img": "https://assets-news.housing.com/news/wp-content/uploads/2022/09/07111210/15-beautiful-places-in-India-for-tourists-to-visit-01.jpg",
+      "famous_for": "Hill Station and Coffee Plantations",
+      "destination_fees": 0,
+      "available_hotels": [
+        "The Tamara Coorg",
+        "Evolve Back Coorg",
+        "Club Mahindra Madikeri"
+      ],
+      "state": "Karnataka"
+    },
+    {
+      "id": 36,
+      "name": "Gangtok",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHkb-MxAli6COwkCinbPARfN2r_3PpBLvLQ&s",
+      "famous_for": "Hill Station and Monasteries",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Mayfair Spa Resort",
+        "The Elgin Nor-Khill",
+        "Lemon Tree Hotel"
+      ],
+      "state": "Sikkim"
+    },
+    {
+      "id": 37,
+      "name": "Lonavala",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHt69XDw3rK4P-utP89Hkq-m2NpsUs3_DnQ&s",
+      "famous_for": "Hill Station",
+      "destination_fees": 0,
+      "available_hotels": ["The Machan", "Della Resorts", "Fariyas Resort"],
+      "state": "Maharashtra"
+    },
+    {
+      "id": 38,
+      "name": "Mount Abu",
+      "img": "https://img.traveltriangle.com/blog/wp-content/uploads/2023/06/Mount-Abu.jpg?tr=w-400",
+      "famous_for": "Hill Station",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Cama Rajputana Club Resort",
+        "Hotel Hillock",
+        "Hotel Silver Oak"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 39,
+      "name": "Udaipur",
+      "img": "https://media.easemytrip.com/media/Blog/India/636989731119059291/6369897311190592915iQBiy.jpg",
+      "famous_for": "Lakes and Palaces",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Taj Lake Palace",
+        "The Leela Palace",
+        "Oberoi Udaivilas"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 40,
+      "name": "Alleppey",
+      "img": "https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2019/12/Ooty-South-India-in-June.jpg",
+      "famous_for": "Backwaters and Houseboats",
+      "destination_fees": 150,
+      "available_hotels": [
+        "Lake Palace Resort",
+        "Ramada Alleppey",
+        "Houseboat Cruise"
+      ],
+      "state": "Kerala"
+    },
+    {
+      "id": 41,
+      "name": "Munnar",
+      "img": "https://lp-cms-production.imgix.net/2023-02/GettyImages-1338239013.jpg?w=1920&auto=format&q=75",
+      "famous_for": "Tea Gardens and Scenic Views",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Spice Tree Munnar",
+        "The Leaf Munnar",
+        "Chandy's Windy Woods"
+      ],
+      "state": "Kerala"
+    },
+    {
+      "id": 42,
+      "name": "Tawang",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrRybgdpLhfwVLO_d1XaXEfROiMaITuDoyKg&s",
+      "famous_for": "Monasteries and Scenic Views",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Hotel Tawang Heights",
+        "Hotel Mon Paradise",
+        "Dolma Khangsar Guest House"
+      ],
+      "state": "Arunachal Pradesh"
+    },
+    {
+      "id": 43,
+      "name": "Jaisalmer",
+      "img": "https://s3.india.com/wp-content/uploads/2024/05/Feature-Image-_-Guwahati.jpg?impolicy=Medium_Widthonly&w=700",
+      "famous_for": "Desert and Forts",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Suryagarh",
+        "Jaisalmer Marriott Resort",
+        "Desert Tulip Hotel"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 44,
+      "name": "Spiti Valley",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/1200px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+      "famous_for": "High Altitude and Buddhist Monasteries",
+      "destination_fees": 0,
+      "available_hotels": [
+        "The 1st Floor",
+        "Hotel Spiti Sarai",
+        "Spiti Village Resort"
+      ],
+      "state": "Himachal Pradesh"
+    },
+    {
+      "id": 45,
+      "name": "Pondicherry",
+      "img": "https://static.toiimg.com/thumb/32243872.cms?resizemode=75&width=1200&height=900",
+      "famous_for": "French Colonial Architecture",
+      "destination_fees": 0,
+      "available_hotels": ["The Promenade", "Hotel de L'Orient", "Le Dupleix"],
+      "state": "Puducherry"
+    },
+    {
+      "id": 46,
+      "name": "Kumarakom",
+      "img": "https://s3.india.com/travel/wp-content/uploads/2017/01/kumarakom-625x470.jpg",
+      "famous_for": "Backwaters and Bird Sanctuary",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Kumarakom Lake Resort",
+        "Coconut Lagoon",
+        "Vembanad House"
+      ],
+      "state": "Kerala"
+    },
+    {
+      "id": 47,
+      "name": "Kolkata",
+      "img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Victoria-Memorial-Sound-and-Light-Show.jpg",
+      "famous_for": "Cultural and Historical Sites",
+      "destination_fees": 0,
+      "available_hotels": ["The Oberoi Grand", "Taj Bengal", "ITC Sonar"],
+      "state": "West Bengal"
+    },
+    {
+      "id": 48,
+      "name": "Jaipur",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=500&h=-1&s=1",
+      "famous_for": "Palaces and Forts",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Rambagh Palace",
+        "The Oberoi Rajvilas",
+        "Taj Jai Mahal Palace"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 49,
+      "name": "Nainital",
+      "img": "https://www.holidify.com/images/bgImages/NAINITAL.jpg",
+      "famous_for": "Lakes and Hill Station",
+      "destination_fees": 0,
+      "available_hotels": [
+        "The Naini Retreat",
+        "Hotel Himalaya",
+        "Shervani Hilltop"
+      ],
+      "state": "Uttarakhand"
+    },
+    {
+      "id": 4,
+      "name": "Kerala Backwaters",
+      "img": "https://static.toiimg.com/photo/54422629.cms",
+      "famous_for": "Backwaters and Houseboats",
+      "destination_fees": 200,
+      "available_hotels": [
+        "Kumarakom Lake Resort",
+        "Zuri Kumarakom",
+        "Lake Palace Resort"
+      ],
+      "state": "Kerala"
+    },
+    {
+      "id": 5,
+      "name": "Manali",
+      "img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Munnar-Kerala-1.jpg",
+      "famous_for": "Hill Station and Adventure Sports",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Manali Heights",
+        "The Himalayan",
+        "Apple Country Resort"
+      ],
+      "state": "Himachal Pradesh"
+    },
+    {
+      "id": 6,
+      "name": "Golden Temple",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkc1OlbvCkfK-Lj-J6rqpN5ZZ_x23V1nAMQ&s",
+      "famous_for": "Religious Site",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Hotel Golden Tulip",
+        "Hotel Holy City",
+        "Hotel Heaven"
+      ],
+      "state": "Punjab"
+    },
+    {
+      "id": 7,
+      "name": "Mysore Palace",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mysore_Palace_Morning.jpg",
+      "famous_for": "Royal Palace",
+      "destination_fees": 70,
+      "available_hotels": [
+        "Royal Orchid",
+        "The Windflower Resort",
+        "Radisson Blu"
+      ],
+      "state": "Karnataka"
+    },
+    {
+      "id": 8,
+      "name": "Hawa Mahal",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyXZQwkQAFPHc1aJNxSvU3DhQmBU9OlM95A&s",
+      "famous_for": "Palace of Winds",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Hawa Mahal",
+        "Hotel Moon Light Palace",
+        "Hotel Pearl Palace"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 9,
+      "name": "Sundarbans",
+      "img": "https://www.holidify.com/images/bgImages/MUNNAR.jpg",
+      "famous_for": "Mangrove Forest",
+      "destination_fees": 300,
+      "available_hotels": [
+        "Sundarban Tiger Camp",
+        "Sajnekhali Tourist Lodge",
+        "Banani Resort"
+      ],
+      "state": "West Bengal"
+    },
+    {
+      "id": 10,
+      "name": "Dal Lake",
+      "img": "https://c.myholidays.com/blog/blog/content/images/2021/04/Madurai.webp",
+      "famous_for": "Lake and Houseboats",
+      "destination_fees": 100,
+      "available_hotels": [
+        "Hotel Heevan",
+        "Vivanta Dal View",
+        "Houseboat New Golden Flower"
+      ],
+      "state": "Jammu and Kashmir"
+    },
+    {
+      "id": 11,
+      "name": "Ajanta Caves",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLYGc91-OTzVe80VJ2hGkBL0Pk18TgYMyOpA&s",
+      "famous_for": "Ancient Caves",
+      "destination_fees": 30,
+      "available_hotels": [
+        "Hotel Kailas",
+        "MTDC Ajanta T Junction",
+        "Ajanta Caves Hotel"
+      ],
+      "state": "Maharashtra"
+    },
+    {
+      "id": 12,
+      "name": "Ranthambore National Park",
+      "img": "https://adm.dookinternational.com/dook/images/country/bf24XeIx1620388623.jpg",
+      "famous_for": "Wildlife Safari",
+      "destination_fees": 500,
+      "available_hotels": [
+        "The Oberoi Vanyavilas",
+        "Taj Sawai Madhopur Lodge",
+        "Nahargarh Ranthambhore"
+      ],
+      "state": "Rajasthan"
+    },
+    {
+      "id": 13,
+      "name": "Varanasi Ghats",
+      "img": "https://www.sotc.in/blog/wp-content/uploads/2023/07/Best-Places-To-Visit-In-May-In-India.jpg",
+      "famous_for": "Holy River Ghats",
+      "destination_fees": 0,
+      "available_hotels": ["BrijRama Palace", "Hotel Alka", "Hotel Surya"],
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 14,
+      "name": "Qutub Minar",
+      "img": "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/home/SOU_new.jpg/_jcr_content/renditions/cq5dam.web.1800.737.jpeg",
+      "famous_for": "Historical Monument",
+      "destination_fees": 40,
+      "available_hotels": ["Hotel Le Meridien", "The Lodhi", "Taj Palace"],
+      "state": "Delhi"
+    },
+    {
+      "id": 15,
+      "name": "Sanchi Stupa",
+      "img": "https://housing.com/news/wp-content/uploads/2022/11/Famous-tourist-places-in-India-15.jpg",
+      "famous_for": "Buddhist Monument",
+      "destination_fees": 20,
+      "available_hotels": [
+        "Gateway Retreat",
+        "Hotel Sambodhi",
+        "MPTDC Tourist Lodge"
+      ],
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 16,
+      "name": "Charminar",
+      "img": "https://c.myholidays.com/blog/2023/8/41537_Auli.webp",
+      "famous_for": "Historical Monument",
+      "destination_fees": 25,
+      "available_hotels": ["Taj Krishna", "The Park Hyderabad", "Hotel Shadab"],
+      "state": "Telangana"
+    },
+    {
+      "id": 17,
+      "name": "Khajuraho Temples",
+      "img": "https://ihplb.b-cdn.net/wp-content/uploads/2021/07/Places-to-Visit-in-India-in-August-750x430.jpg",
+      "famous_for": "Temples and Sculptures",
+      "destination_fees": 50,
+      "available_hotels": [
+        "Hotel Chandela",
+        "Radisson Jass Hotel",
+        "Hotel Harmony"
+      ],
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 18,
+      "name": "Darjeeling",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIND8e786LFCQCbjqDE45EX6TgOH_ldPocw&s",
+      "famous_for": "Tea Gardens and Scenic Views",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Mayfair Darjeeling",
+        "Cedar Inn",
+        "Windamere Hotel"
+      ],
+      "state": "West Bengal"
+    },
+    {
+      "id": 19,
+      "name": "Hampi",
+      "img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Chennai-1.jpg",
+      "famous_for": "Historical Ruins",
+      "destination_fees": 30,
+      "available_hotels": [
+        "Evolve Back Hampi",
+        "Heritage Resort",
+        "Hampi's Boulders"
+      ],
+      "state": "Karnataka"
+    },
+    {
+      "id": 20,
+      "name": "Meenakshi Temple",
+      "img": "https://ihplb.b-cdn.net/wp-content/uploads/2017/05/coorg-karnataka.jpg",
+      "famous_for": "Ancient Temple",
+      "destination_fees": 0,
+      "available_hotels": [
+        "Heritage Madurai",
+        "Fortune Pandiyan Hotel",
+        "Hotel Supreme"
+      ],
+      "state": "Tamil Nadu"
+    }
+  ]
+}

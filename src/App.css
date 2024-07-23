@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Universal Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f3f3;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #008374;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #007668;
+  display: flex;
+  flex-direction: column;
+  position: sticky !important;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.navbar-banner {
+  background-color: #007668;
+}
+
+.navbar-banner-main-innerdiv {
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.navbar-banner-leftside {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-main-content {
+  background-color: #008374;
+  padding: 14px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-icon {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 17px !important;
+  color: white;
+  font-weight: 500;
+  margin-right: 24px; /* Increased spacing between links */
+  text-decoration: none;
+  font-size: 16px; /* Slightly larger font size */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navList:hover {
+  text-decoration: underline;
+  color: #d4b0ff; /* Light purple color on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #d4b0ff; /* Light purple color on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+.navbar-logo {
+  font-size: 24px; /* Larger font size for logo/brand name */
+  font-weight: 700; /* Bold font weight */
+  color: #ffffff; /* White color */
+  margin-right: auto; /* Push links to the right */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-wrapper {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #008374;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008374;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.login-link {
+  color: #008374;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Slider */
+
+.carousel-caption {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel-caption > h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.slider-page1-h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  /* Ensures images cover the area without distortion */
+}
+
+.about-us-banner {
+  height: 70vh;
+}
+
+.about-us-banner > div {
+  width: 100%;
+}
+
+.about-us-banner-main-div {
+  border: solid transparent;
+  background-color: #f3f3f3;
+}
+
+.about-us-banner-img {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c4/72/f6/jal-mahal-jaipur-tour.jpg?w=500&h=400&s=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us-banner-text-maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-banner-text-maindiv-inner-div {
+  background-color: white;
+  width: 40vw;
+  height: 60vh;
+  position: relative;
+  right: 50px;
+  padding: 30px;
+}
+
+.about-us-banner-text-maindiv-inner-div > div {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us-banner-text-maindiv-inner-div > div > h5 {
+  color: #8fb730;
+  font-size: 20px;
+}
+.about-us-banner-text-maindiv-inner-div > div > h1 {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .about-us-banner-img {
+    height: 200px; /* Adjust height for even smaller screens */
+  }
+
+  .about-us-banner-text-maindiv-inner-div > div > h1 {
+    font-size: 20px;
+  }
+
+  .about-us-banner-text-maindiv-inner-div > div > h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-banner-img {
+    height: 150px; /* Further adjust height for very small screens */
+  }
+
+  .about-us-banner-text-maindiv {
+    padding: 15px;
+  }
+
+  .about-us-banner-text-maindiv-inner-div > div > h1 {
+    font-size: 18px;
+  }
+
+  .about-us-banner-text-maindiv-inner-div > div > h5 {
+    font-size: 12px;
+  }
+}
+
+svg:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+
+
+/* Profile/ProfileDashboard */
+
+.Dashboard-Main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Dashboard-Main-container>div{
+  width: 100%;
+}
+.Dashboard-Main-container>div:nth-of-type(2){
+  padding: 20px;
+}
+
+.user-profile-card-section{
+
+}
